@@ -1,0 +1,399 @@
+Loading configuration : test3.cfg
+Reading file test3.cfg
+Preverse on
+Created Router 0 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 1 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 2 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 3 has 4 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 4 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 5 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 6 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Adding link Link (R0:0 I0:0 W0:1)<-->(R1:3 I1:0 W1:1)
+Adding link Link (R0:0 I0:0 W0:1)<-->(R1:3 I1:0 W1:1)
+Adding link Link (R0:0 I0:1 W0:1)<-->(R1:2 I1:0 W1:1)
+Adding link Link (R0:0 I0:1 W0:1)<-->(R1:2 I1:0 W1:1)
+Adding link Link (R0:0 I0:2 W0:1)<-->(R1:1 I1:0 W1:1)
+Adding link Link (R0:0 I0:2 W0:1)<-->(R1:1 I1:0 W1:1)
+Adding link Link (R0:1 I0:1 W0:1)<-->(R1:2 I1:1 W1:1)
+Adding link Link (R0:1 I0:1 W0:1)<-->(R1:2 I1:1 W1:1)
+Adding link Link (R0:2 I0:2 W0:2)<-->(R1:5 I1:0 W1:2)
+Adding link Link (R0:2 I0:2 W0:2)<-->(R1:5 I1:0 W1:2)
+Adding link Link (R0:3 I0:1 W0:1)<-->(R1:4 I1:0 W1:1)
+Adding link Link (R0:3 I0:1 W0:1)<-->(R1:4 I1:0 W1:1)
+Adding link Link (R0:3 I0:2 W0:1)<-->(R1:6 I1:1 W1:1)
+Adding link Link (R0:3 I0:2 W0:1)<-->(R1:6 I1:1 W1:1)
+Adding link Link (R0:3 I0:3 W0:1)<-->(R1:5 I1:1 W1:1)
+Adding link Link (R0:3 I0:3 W0:1)<-->(R1:5 I1:1 W1:1)
+Adding link Link (R0:4 I0:1 W0:10)<-->(R1:6 I1:0 W1:10)
+Adding link Link (R0:4 I0:1 W0:10)<-->(R1:6 I1:0 W1:10)
+Adding link Link (R0:5 I0:2 W0:1)<-->(R1:6 I1:2 W1:1)
+Adding link Link (R0:5 I0:2 W0:1)<-->(R1:6 I1:2 W1:1)
+Adding Event is dumprt to occur at 9 with all
+Adding Event is downlink to occur at 10 with 3 1 4 0
+Adding Event is send to occur at 12 with 0 4
+Adding Event is dumprt to occur at 12 with all
+Adding Event is send to occur at 27 with 0 4
+Adding Event is dumprt to occur at 27 with all
+Adding Event is downlink to occur at 35 with 0 0 3 0
+Adding Event is send to occur at 40 with 1 3
+Adding Event is dumprt to occur at 40 with all
+Adding Event is downlink to occur at 45 with 2 2 5 0
+Adding Event is send to occur at 50 with 0 5
+Adding Event is dumprt to occur at 50 with all
+Adding Event is dumpPacketStats to occur at 50 with all
+Time :1
+Time :2
+Time :3
+Time :4
+Time :5
+Time :6
+Time :7
+Time :8
+Time :9
+Time :10
+Setting link status to down Link (R0:3 I0:1 W0:1)<-->(R1:4 I1:0 W1:1)
+Time :11
+Time :12
+Forwarded packet src 0 dst 4 type 1 ttl 254 seq 1 path
+Time :13
+Forwarded packet src 0 dst 4 type 1 ttl 253 seq 1 path (0.0->3.0)
+Time :14
+Forwarded packet src 0 dst 4 type 1 ttl 252 seq 1 path (0.0->3.0) (3.0->0.0)
+Time :15
+Forwarded packet src 0 dst 4 type 1 ttl 251 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :16
+Forwarded packet src 0 dst 4 type 1 ttl 250 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Time :17
+Forwarded packet src 0 dst 4 type 1 ttl 249 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :18
+Forwarded packet src 0 dst 4 type 1 ttl 248 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Time :19
+Forwarded packet src 0 dst 4 type 1 ttl 247 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :20
+Forwarded packet src 0 dst 4 type 1 ttl 246 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Time :21
+Forwarded packet src 0 dst 4 type 1 ttl 245 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :22
+Forwarded packet src 0 dst 4 type 1 ttl 244 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Time :23
+Forwarded packet src 0 dst 4 type 1 ttl 243 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :24
+Forwarded packet src 0 dst 4 type 1 ttl 242 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Time :25
+Forwarded packet src 0 dst 4 type 1 ttl 241 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :26
+Forwarded packet src 0 dst 4 type 1 ttl 240 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Time :27
+Forwarded packet src 0 dst 4 type 1 ttl 254 seq 2 path
+Forwarded packet src 0 dst 4 type 1 ttl 239 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :28
+Forwarded packet src 0 dst 4 type 1 ttl 238 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Forwarded packet src 0 dst 4 type 1 ttl 253 seq 2 path (0.0->3.0)
+Time :29
+Forwarded packet src 0 dst 4 type 1 ttl 252 seq 2 path (0.0->3.0) (3.0->0.0)
+Forwarded packet src 0 dst 4 type 1 ttl 237 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :30
+Forwarded packet src 0 dst 4 type 1 ttl 236 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Forwarded packet src 0 dst 4 type 1 ttl 251 seq 2 path (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :31
+Forwarded packet src 0 dst 4 type 1 ttl 250 seq 2 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Forwarded packet src 0 dst 4 type 1 ttl 235 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :32
+Forwarded packet src 0 dst 4 type 1 ttl 234 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Forwarded packet src 0 dst 4 type 1 ttl 249 seq 2 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :33
+Forwarded packet src 0 dst 4 type 1 ttl 248 seq 2 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Forwarded packet src 0 dst 4 type 1 ttl 233 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :34
+Forwarded packet src 0 dst 4 type 1 ttl 232 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Forwarded packet src 0 dst 4 type 1 ttl 247 seq 2 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+Time :35
+Setting link status to down Link (R0:0 I0:0 W0:1)<-->(R1:3 I1:0 W1:1)
+Forwarded packet src 0 dst 4 type 1 ttl 246 seq 2 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0)
+Forwarded packet src 0 dst 4 type 1 ttl 231 seq 1 path (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0) (3.0->0.0) (0.0->3.0)
+size of out0 1
+size of out1 1
+Time :36
+size of out0 1
+size of out1 1
+Time :37
+size of out0 1
+size of out1 1
+Time :38
+size of out0 1
+size of out1 1
+Time :39
+size of out0 1
+size of out1 1
+Time :40
+Forwarded packet src 1 dst 3 type 1 ttl 254 seq 3 path
+size of out0 1
+size of out1 1
+Time :41
+Forwarded packet src 1 dst 3 type 1 ttl 253 seq 3 path (1.0->0.2)
+size of out0 2
+size of out1 1
+Time :42
+size of out0 2
+size of out1 1
+Time :43
+size of out0 2
+size of out1 1
+Time :44
+size of out0 2
+size of out1 1
+Time :45
+Setting link status to down Link (R0:2 I0:2 W0:2)<-->(R1:5 I1:0 W1:2)
+size of out0 2
+size of out1 1
+Time :46
+size of out0 2
+size of out1 1
+Time :47
+size of out0 2
+size of out1 1
+Time :48
+size of out0 2
+size of out1 1
+Time :49
+size of out0 2
+size of out1 1
+Time :50
+Forwarded packet src 0 dst 5 type 1 ttl 254 seq 4 path
+event Event is dumpPacketStats to occur at 50 with all
+Pkt stats for 0 :  s 18 r 0 d 0 f 1
+(R0:0 I0:0) s 19 r 15<-->(R1:3 I1:0) s 16 r 16
+(R0:0 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:0 I0:2) s 0 r 1<-->(R1:1 I1:0) s 1 r 0
+Pkt stats for 1 :  s 1 r 0 d 0 f 0
+(R0:0 I0:2) s 0 r 1<-->(R1:1 I1:0) s 1 r 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:1) s 0 r 0
+Pkt stats for 2 :  s 0 r 0 d 0 f 0
+(R0:0 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:1) s 0 r 0
+(R0:2 I0:2) s 0 r 0<-->(R1:5 I1:0) s 0 r 0
+Pkt stats for 3 :  s 0 r 0 d 0 f 16
+(R0:0 I0:0) s 19 r 15<-->(R1:3 I1:0) s 16 r 16
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:3 I0:2) s 0 r 0<-->(R1:6 I1:1) s 0 r 0
+(R0:3 I0:3) s 0 r 0<-->(R1:5 I1:1) s 0 r 0
+Pkt stats for 4 :  s 0 r 0 d 0 f 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:4 I0:1) s 0 r 0<-->(R1:6 I1:0) s 0 r 0
+Pkt stats for 5 :  s 0 r 0 d 0 f 0
+(R0:2 I0:2) s 0 r 0<-->(R1:5 I1:0) s 0 r 0
+(R0:3 I0:3) s 0 r 0<-->(R1:5 I1:1) s 0 r 0
+(R0:5 I0:2) s 0 r 0<-->(R1:6 I1:2) s 0 r 0
+Pkt stats for 6 :  s 0 r 0 d 0 f 0
+(R0:4 I0:1) s 0 r 0<-->(R1:6 I1:0) s 0 r 0
+(R0:3 I0:2) s 0 r 0<-->(R1:6 I1:1) s 0 r 0
+(R0:5 I0:2) s 0 r 0<-->(R1:6 I1:2) s 0 r 0
+size of out0 3
+size of out1 1
+Time :51
+size of out0 3
+size of out1 1
+Time :52
+size of out0 3
+size of out1 1
+Time :53
+size of out0 3
+size of out1 1
+Time :54
+size of out0 3
+size of out1 1
+Time :55
+size of out0 3
+size of out1 1
+Time :56
+size of out0 3
+size of out1 1
+Time :57
+size of out0 3
+size of out1 1
+Time :58
+size of out0 3
+size of out1 1
+Time :59
+size of out0 3
+size of out1 1
+Time :60
+size of out0 3
+size of out1 1
+Time :61
+size of out0 3
+size of out1 1
+Time :62
+size of out0 3
+size of out1 1
+Time :63
+size of out0 3
+size of out1 1
+Time :64
+size of out0 3
+size of out1 1
+Time :65
+size of out0 3
+size of out1 1
+Time :66
+size of out0 3
+size of out1 1
+Time :67
+size of out0 3
+size of out1 1
+Time :68
+size of out0 3
+size of out1 1
+Time :69
+size of out0 3
+size of out1 1
+Time :70
+size of out0 3
+size of out1 1
+Time :71
+size of out0 3
+size of out1 1
+Time :72
+size of out0 3
+size of out1 1
+Time :73
+size of out0 3
+size of out1 1
+Time :74
+size of out0 3
+size of out1 1
+Time :75
+size of out0 3
+size of out1 1
+Time :76
+size of out0 3
+size of out1 1
+Time :77
+size of out0 3
+size of out1 1
+Time :78
+size of out0 3
+size of out1 1
+Time :79
+size of out0 3
+size of out1 1
+Time :80
+size of out0 3
+size of out1 1
+Time :81
+size of out0 3
+size of out1 1
+Time :82
+size of out0 3
+size of out1 1
+Time :83
+size of out0 3
+size of out1 1
+Time :84
+size of out0 3
+size of out1 1
+Time :85
+size of out0 3
+size of out1 1
+Time :86
+size of out0 3
+size of out1 1
+Time :87
+size of out0 3
+size of out1 1
+Time :88
+size of out0 3
+size of out1 1
+Time :89
+size of out0 3
+size of out1 1
+Time :90
+size of out0 3
+size of out1 1
+Time :91
+size of out0 3
+size of out1 1
+Time :92
+size of out0 3
+size of out1 1
+Time :93
+size of out0 3
+size of out1 1
+Time :94
+size of out0 3
+size of out1 1
+Time :95
+size of out0 3
+size of out1 1
+Time :96
+size of out0 3
+size of out1 1
+Time :97
+size of out0 3
+size of out1 1
+Time :98
+size of out0 3
+size of out1 1
+Time :99
+size of out0 3
+size of out1 1
+Time :100
+size of out0 3
+size of out1 1
+Time :101
+size of out0 3
+size of out1 1
+Time :102
+size of out0 3
+size of out1 1
+Time :103
+size of out0 3
+size of out1 1
+Time :104
+size of out0 3
+size of out1 1
+Time :105
+size of out0 3
+size of out1 1
+Time :106
+size of out0 3
+size of out1 1
+Time :107
+size of out0 3
+size of out1 1
+Time :108
+size of out0 3
+size of out1 1
+Time :109
+size of out0 3
+size of out1 1
+Time :110
+size of out0 3
+size of out1 1
+Time :111
+size of out0 3
+size of out1 1
+Time :112
+size of out0 3
+size of out1 1
+Time :113
+size of out0 3
+size of out1 1
+Time :114
+size of out0 3
+size of out1 1
+Time :115
+size of out0 3
+size of out1 1
+Time :116
+size of out0 3
+size of out1 1
+Time :117
+size of out0 3
+size of out1 1
+Time :118
+size of out0 3
+size of out1 1
+Time :119
+size of out0 3
+size of out1 1

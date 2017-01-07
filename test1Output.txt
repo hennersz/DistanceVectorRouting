@@ -1,0 +1,254 @@
+Loading configuration : test1.cfg
+Reading file test1.cfg
+Created Router 0 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: off expire entries off
+Created Router 1 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: off expire entries off
+Created Router 2 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: off expire entries off
+Created Router 3 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: off expire entries off
+Created Router 4 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: off expire entries off
+Adding link Link (R0:0 I0:0 W0:1)<-->(R1:1 I1:0 W1:1)
+Adding link Link (R0:0 I0:0 W0:1)<-->(R1:1 I1:0 W1:1)
+Adding link Link (R0:1 I0:1 W0:1)<-->(R1:2 I1:0 W1:1)
+Adding link Link (R0:1 I0:1 W0:1)<-->(R1:2 I1:0 W1:1)
+Adding link Link (R0:2 I0:1 W0:1)<-->(R1:3 I1:0 W1:1)
+Adding link Link (R0:2 I0:1 W0:1)<-->(R1:3 I1:0 W1:1)
+Adding link Link (R0:3 I0:1 W0:1)<-->(R1:4 I1:1 W1:1)
+Adding link Link (R0:3 I0:1 W0:1)<-->(R1:4 I1:1 W1:1)
+Adding link Link (R0:0 I0:1 W0:3)<-->(R1:4 I1:0 W1:3)
+Adding link Link (R0:0 I0:1 W0:3)<-->(R1:4 I1:0 W1:3)
+Adding Event is send to occur at 10 with 0 3
+Adding Event is send to occur at 30 with 0 3
+Adding Event is downlink to occur at 15 with 1 1 2 0
+Adding Event is dumpPacketStats to occur at 1 with all
+Adding Event is dumprt to occur at 1 with all
+Adding Event is dumpPacketStats to occur at 2 with all
+Adding Event is dumprt to occur at 2 with all
+Adding Event is dumpPacketStats to occur at 3 with all
+Adding Event is dumprt to occur at 3 with all
+Adding Event is dumprt to occur at 4 with all
+Adding Event is dumprt to occur at 5 with all
+Adding Event is dumprt to occur at 6 with all
+Adding Event is dumprt to occur at 7 with all
+Adding Event is dumprt to occur at 8 with all
+Adding Event is dumprt to occur at 9 with all
+Adding Event is dumprt to occur at 10 with all
+Adding Event is dumprt to occur at 11 with all
+Adding Event is dumprt to occur at 12 with all
+Adding Event is dumprt to occur at 13 with all
+Adding Event is dumpPacketStats to occur at 14 with all
+Adding Event is dumprt to occur at 14 with all
+Adding Event is dumpPacketStats to occur at 21 with all
+Adding Event is dumprt to occur at 21 with all
+Adding Event is dumpPacketStats to occur at 22 with all
+Adding Event is dumprt to occur at 22 with all
+Adding Event is dumpPacketStats to occur at 23 with all
+Adding Event is dumprt to occur at 23 with all
+Adding Event is dumpPacketStats to occur at 24 with all
+Adding Event is dumprt to occur at 24 with all
+Time :1
+event Event is dumpPacketStats to occur at 1 with all
+Pkt stats for 0 :  s 0 r 0 d 0 f 0
+(R0:0 I0:0) s 0 r 0<-->(R1:1 I1:0) s 0 r 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+Pkt stats for 1 :  s 0 r 0 d 0 f 0
+(R0:0 I0:0) s 0 r 0<-->(R1:1 I1:0) s 0 r 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+Pkt stats for 2 :  s 0 r 0 d 0 f 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+Pkt stats for 3 :  s 0 r 0 d 0 f 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Pkt stats for 4 :  s 0 r 0 d 0 f 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Time :2
+event Event is dumpPacketStats to occur at 2 with all
+Pkt stats for 0 :  s 0 r 0 d 0 f 0
+(R0:0 I0:0) s 0 r 0<-->(R1:1 I1:0) s 0 r 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+Pkt stats for 1 :  s 0 r 0 d 0 f 0
+(R0:0 I0:0) s 0 r 0<-->(R1:1 I1:0) s 0 r 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+Pkt stats for 2 :  s 0 r 0 d 0 f 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+Pkt stats for 3 :  s 0 r 0 d 0 f 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Pkt stats for 4 :  s 0 r 0 d 0 f 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Time :3
+event Event is dumpPacketStats to occur at 3 with all
+Pkt stats for 0 :  s 0 r 0 d 0 f 0
+(R0:0 I0:0) s 0 r 0<-->(R1:1 I1:0) s 0 r 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+Pkt stats for 1 :  s 0 r 0 d 0 f 0
+(R0:0 I0:0) s 0 r 0<-->(R1:1 I1:0) s 0 r 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+Pkt stats for 2 :  s 0 r 0 d 0 f 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+Pkt stats for 3 :  s 0 r 0 d 0 f 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Pkt stats for 4 :  s 0 r 0 d 0 f 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Time :4
+Time :5
+Time :6
+Time :7
+Time :8
+Time :9
+Time :10
+Forwarded packet src 0 dst 3 type 1 ttl 254 seq 1 path
+Time :11
+Forwarded packet src 0 dst 3 type 1 ttl 253 seq 1 path (0.0->1.0)
+Time :12
+Forwarded packet src 0 dst 3 type 1 ttl 252 seq 1 path (0.0->1.0) (1.0->0.0)
+Time :13
+Forwarded packet src 0 dst 3 type 1 ttl 251 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :14
+event Event is dumpPacketStats to occur at 14 with all
+Pkt stats for 0 :  s 2 r 0 d 0 f 0
+(R0:0 I0:0) s 2 r 1<-->(R1:1 I1:0) s 2 r 2
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+Pkt stats for 1 :  s 0 r 0 d 0 f 2
+(R0:0 I0:0) s 2 r 1<-->(R1:1 I1:0) s 2 r 2
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+Pkt stats for 2 :  s 0 r 0 d 0 f 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+Pkt stats for 3 :  s 0 r 0 d 0 f 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Pkt stats for 4 :  s 0 r 0 d 0 f 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Forwarded packet src 0 dst 3 type 1 ttl 250 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :15
+Setting link status to down Link (R0:1 I0:1 W0:1)<-->(R1:2 I1:0 W1:1)
+Forwarded packet src 0 dst 3 type 1 ttl 249 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :16
+Forwarded packet src 0 dst 3 type 1 ttl 248 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :17
+Forwarded packet src 0 dst 3 type 1 ttl 247 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :18
+Forwarded packet src 0 dst 3 type 1 ttl 246 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :19
+Forwarded packet src 0 dst 3 type 1 ttl 245 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :20
+Forwarded packet src 0 dst 3 type 1 ttl 244 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :21
+event Event is dumpPacketStats to occur at 21 with all
+Pkt stats for 0 :  s 6 r 0 d 0 f 0
+(R0:0 I0:0) s 6 r 5<-->(R1:1 I1:0) s 5 r 5
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+Pkt stats for 1 :  s 0 r 0 d 0 f 5
+(R0:0 I0:0) s 6 r 5<-->(R1:1 I1:0) s 5 r 5
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+Pkt stats for 2 :  s 0 r 0 d 0 f 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+Pkt stats for 3 :  s 0 r 0 d 0 f 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Pkt stats for 4 :  s 0 r 0 d 0 f 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Forwarded packet src 0 dst 3 type 1 ttl 243 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :22
+event Event is dumpPacketStats to occur at 22 with all
+Pkt stats for 0 :  s 6 r 0 d 0 f 0
+(R0:0 I0:0) s 6 r 5<-->(R1:1 I1:0) s 6 r 6
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+Pkt stats for 1 :  s 0 r 0 d 0 f 6
+(R0:0 I0:0) s 6 r 5<-->(R1:1 I1:0) s 6 r 6
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+Pkt stats for 2 :  s 0 r 0 d 0 f 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+Pkt stats for 3 :  s 0 r 0 d 0 f 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Pkt stats for 4 :  s 0 r 0 d 0 f 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Forwarded packet src 0 dst 3 type 1 ttl 242 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :23
+event Event is dumpPacketStats to occur at 23 with all
+Pkt stats for 0 :  s 7 r 0 d 0 f 0
+(R0:0 I0:0) s 7 r 6<-->(R1:1 I1:0) s 6 r 6
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+Pkt stats for 1 :  s 0 r 0 d 0 f 6
+(R0:0 I0:0) s 7 r 6<-->(R1:1 I1:0) s 6 r 6
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+Pkt stats for 2 :  s 0 r 0 d 0 f 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+Pkt stats for 3 :  s 0 r 0 d 0 f 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Pkt stats for 4 :  s 0 r 0 d 0 f 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Forwarded packet src 0 dst 3 type 1 ttl 241 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :24
+event Event is dumpPacketStats to occur at 24 with all
+Pkt stats for 0 :  s 7 r 0 d 0 f 0
+(R0:0 I0:0) s 7 r 6<-->(R1:1 I1:0) s 7 r 7
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+Pkt stats for 1 :  s 0 r 0 d 0 f 7
+(R0:0 I0:0) s 7 r 6<-->(R1:1 I1:0) s 7 r 7
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+Pkt stats for 2 :  s 0 r 0 d 0 f 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+Pkt stats for 3 :  s 0 r 0 d 0 f 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Pkt stats for 4 :  s 0 r 0 d 0 f 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Forwarded packet src 0 dst 3 type 1 ttl 240 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :25
+Forwarded packet src 0 dst 3 type 1 ttl 239 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :26
+Forwarded packet src 0 dst 3 type 1 ttl 238 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :27
+Forwarded packet src 0 dst 3 type 1 ttl 237 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :28
+Forwarded packet src 0 dst 3 type 1 ttl 236 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :29
+Forwarded packet src 0 dst 3 type 1 ttl 235 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :30
+Forwarded packet src 0 dst 3 type 1 ttl 254 seq 2 path
+Forwarded packet src 0 dst 3 type 1 ttl 234 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :31
+Forwarded packet src 0 dst 3 type 1 ttl 253 seq 2 path (0.0->1.0)
+Forwarded packet src 0 dst 3 type 1 ttl 233 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :32
+Forwarded packet src 0 dst 3 type 1 ttl 252 seq 2 path (0.0->1.0) (1.0->0.0)
+Forwarded packet src 0 dst 3 type 1 ttl 232 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :33
+Forwarded packet src 0 dst 3 type 1 ttl 251 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Forwarded packet src 0 dst 3 type 1 ttl 231 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :34
+Forwarded packet src 0 dst 3 type 1 ttl 250 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Forwarded packet src 0 dst 3 type 1 ttl 230 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :35
+Forwarded packet src 0 dst 3 type 1 ttl 249 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Forwarded packet src 0 dst 3 type 1 ttl 229 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :36
+Forwarded packet src 0 dst 3 type 1 ttl 248 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Forwarded packet src 0 dst 3 type 1 ttl 228 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :37
+Forwarded packet src 0 dst 3 type 1 ttl 247 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Forwarded packet src 0 dst 3 type 1 ttl 227 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Time :38
+Forwarded packet src 0 dst 3 type 1 ttl 246 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Forwarded packet src 0 dst 3 type 1 ttl 226 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
+Time :39
+Forwarded packet src 0 dst 3 type 1 ttl 245 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
+Forwarded packet src 0 dst 3 type 1 ttl 225 seq 1 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
