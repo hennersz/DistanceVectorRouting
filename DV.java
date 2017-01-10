@@ -53,7 +53,11 @@ public class DV implements RoutingAlgorithm {
     public int getNextHop(int destination)
     {
       DVRoutingTableEntry entry = routingTable.get(destination);
-      return entry.getInterface();
+      if(entry.getMetric() < INFINITY){
+        return entry.getInterface();
+      } else {
+        return UNKNOWN;
+      }
     }
     
     public void tidyTable()
@@ -71,12 +75,21 @@ public class DV implements RoutingAlgorithm {
       if(router.getInterfaceState(iface)){
         Payload p = new Payload();
         for(DVRoutingTableEntry e:routingTable.values()){
-          DVRoutingTableEntry newe = new DVRoutingTableEntry(e.getDestination(),
-                                                             e.getInterface(),
-                                                             e.getMetric(),
-                                                             e.getTime());
-          p.addEntry(newe);
+          if(e.getInterface() == iface && shpr){
+            DVRoutingTableEntry newe = new DVRoutingTableEntry(e.getDestination(),
+                                                               e.getInterface(),
+                                                               INFINITY,
+                                                               e.getTime());
+            p.addEntry(newe);
+          } else {
+            DVRoutingTableEntry newe = new DVRoutingTableEntry(e.getDestination(),
+                                                               e.getInterface(),
+                                                               e.getMetric(),
+                                                               e.getTime());
+            p.addEntry(newe);
+          }
         }
+
         Packet pack = new RoutingPacket(router.getId(), Packet.BROADCAST);
         pack.setPayload(p);
         return pack; 

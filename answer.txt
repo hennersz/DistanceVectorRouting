@@ -1,0 +1,4 @@
+In test 3 when the link between 3 and 4 goes down bouncing is experienced
+between router 1 and 2. After the links from 0 to 3 and from 2 to 5 go down
+the network is split in two causing the algorithm to count to infinity when
+forwarding the packet between 1 and 2.
