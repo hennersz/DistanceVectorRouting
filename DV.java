@@ -53,7 +53,7 @@ public class DV implements RoutingAlgorithm {
     public int getNextHop(int destination)
     {
       DVRoutingTableEntry entry = routingTable.get(destination);
-      if(entry.getMetric() < INFINITY){
+      if(entry != null && entry.getMetric() < INFINITY){
         return entry.getInterface();
       } else {
         return UNKNOWN;
@@ -62,10 +62,31 @@ public class DV implements RoutingAlgorithm {
     
     public void tidyTable()
     {
+      Vector<Integer> toBeDeleted = new Vector<Integer>();
+      int time = router.getCurrentTime();
+      DVRoutingTableEntry r = routingTable.get(router.getId());
+      r.setTime(time);
       for(DVRoutingTableEntry entry:routingTable.values()){
         int i = entry.getInterface();
         if(!router.getInterfaceState(i)){
           entry.setMetric(INFINITY);
+        }
+        if(time >= entry.getTime() + uInterval && expr){
+          entry.setMetric(INFINITY);
+        }
+        if(entry.getMetric() == INFINITY){
+          if(entry.getgcTime() == -1){
+            entry.setgcTime(time + uInterval * 4);
+          } else if (entry.getgcTime() <= time){
+            toBeDeleted.add(entry.getDestination());
+          }
+        }
+
+
+      }
+      if(expr){
+        for(Integer i:toBeDeleted){
+          routingTable.remove(i);
         }
       }
     }
@@ -101,19 +122,27 @@ public class DV implements RoutingAlgorithm {
     private void createEntry(DVRoutingTableEntry entry, int iface){
       int d = entry.getDestination();
       int m = entry.getMetric();
+      int time = router.getCurrentTime();
       m += router.getInterfaceWeight(iface);
       if(m > INFINITY){
         m = INFINITY;
       }
       DVRoutingTableEntry r = routingTable.get(d);
       if(r == null){
-        DVRoutingTableEntry newr = new DVRoutingTableEntry(d, iface, m, INFINITY);
-        routingTable.put(d, newr);
+        if(m < INFINITY){
+          DVRoutingTableEntry newr = new DVRoutingTableEntry(d, iface, m, time);
+          routingTable.put(d, newr);
+        }
       } else if (iface == r.getInterface()){
         r.setMetric(m);
+        r.setTime(time);
+        if(m != INFINITY){
+          r.setgcTime(-1);
+        }
       } else if (m < r.getMetric()) {
         r.setMetric(m);
         r.setInterface(iface);
+        r.setTime(time);
       }
     }
     
@@ -140,6 +169,7 @@ class DVRoutingTableEntry implements RoutingTableEntry
   private int iface;
   private int metric;
   private int time;
+  private int gctime;
     
     public DVRoutingTableEntry(int d, int i, int m, int t)
 	{
@@ -147,6 +177,7 @@ class DVRoutingTableEntry implements RoutingTableEntry
     iface = i;
     metric = m;
     time = t;
+    gctime = -1;
 	}
     public int getDestination() { return destination; } 
     public void setDestination(int d) { destination = d;}
@@ -156,6 +187,8 @@ class DVRoutingTableEntry implements RoutingTableEntry
     public void setMetric(int m) { metric = m;} 
     public int getTime() {return time;}
     public void setTime(int t) { time = t;}
+    public int getgcTime() {return gctime;}
+    public void setgcTime(int t) {gctime = t;}
     
     public String toString() 
 	{

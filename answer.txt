@@ -1,4 +1,14 @@
-In test 3 when the link between 3 and 4 goes down bouncing is experienced
+1. In test 3 when the link between 3 and 4 goes down bouncing is experienced
 between router 1 and 2. After the links from 0 to 3 and from 2 to 5 go down
 the network is split in two causing the algorithm to count to infinity when
 forwarding the packet between 1 and 2.
+
+In test 4 after links 2 to 5 and 0 to 3 go down the network is split into 2
+and causes the algorithm to count to infinity until the packet is dropped.
+
+2. In test 3 after the link between 3 and 4 goes down the shpr means the
+bouncing doesn't happen and also prevents the counting to infinity and the
+links from 0 to 3 and 2 to 5 go down.
+
+In test 4 after links 2 to 5 and 0 to 3 go down shpr means the bouncing no
+longer occurs.
